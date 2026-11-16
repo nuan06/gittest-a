@@ -1,0 +1,14 @@
+print("请输入两个集合的元素(以空格分隔): ")
+input1 = input("第一个集合: ")
+input2 = input("第二个集合: ")
+print("第一个集合的元素: ",input1)
+print("第二个集合的元素: ",input2)
+s1 = set(input1.split())
+s2 = set(input2.split())
+jiaoji = s1 & s2
+print("两个集合的交集: ",jiaoji)
+bingji = s1 | s2
+print("两个集合的并集: ",bingji)
+chaji = s1 - s2
+print("两个集合的差集: ",chaji)
+
